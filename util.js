@@ -84,7 +84,7 @@ function onClick(e, gameState) {
         gameState.state = "game";
     }
     else if (gameState.state == "clear") {
-        location.href = "http://twitter.com/share?url=" + escape(location.href) + "&text=" + `神経衰弱を${miliSecToMinSec(gameState.elapsedTime)}でクリアしました！`;
+        location.href = "http://twitter.com/share?url=" + escape(location.href) + "&text=" + `神経衰弱を${miliSecToMinSec(gameState.elapsedTime)}でクリアしました！%0A`;
     }
 }
 
