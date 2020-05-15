@@ -12,7 +12,7 @@ const info_display_space_width = 192;
 const canvas_height = card_height * table_height;
 const canvas_width = card_width * table_width + info_display_space_width;
 
-const card_number = 52;
+var card_number = 52;
 const card_image = new Image();
 const suits = ["club", "heart", "diamond", "spade"];
 image_info = [];
